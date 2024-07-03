@@ -1,0 +1,35 @@
+body {
+  background: url(./wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+#buy-button {
+  font-size: 50px;
+  background: red;
+  animation: 2s infinite rainbow-button reverse;
+  cursor: pointer;
+}
+
+@keyframes rainbow-button {
+  0% {
+    background: red;
+  }
+
+  20% {
+    background: blue;
+  }
+
+  40% {
+    background: lightgreen;
+  }
+
+  60% {
+    background: yellow;
+  }
+
+  80% {
+    background: violet;
+  }
+}
